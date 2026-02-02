@@ -1,0 +1,112 @@
+{
+    "home": {
+        "greeting": "Hello, I am",
+        "fullName": "Shisir Khanal",
+        "designation": "Former Parliament Member & former Education Minister",
+        "intro": "Shisir Khanal co-founded Teach For Nepal, which has placed hundreds of fellows in the country's most underserved classrooms. His path to politics ran through the Sarvodaya Shramdan movement, where he led reconstruction efforts in Sri Lanka and Haiti before returning home to build. He studied public policy at the University of Wisconsin-Madison.",
+        "highlightsSectionTitle": "Highlights",
+        "inParliamentTitle": "Parliament Work",
+        "parliamentHighlight1Title": "Turning Voices into Action",
+        "parliamentHighlight1Description": "15+ parliamentary interventions and ₹100+ crore directed to local infrastructure your concerns raised at the national level.",
+        "parliamentHighlight2Title": "From Community to Parliament",
+        "parliamentHighlight2Description": "367 days on the ground turned local issues into national priorities.",
+        "parliamentHighlight3Title": "Serious Policy Work Happens in Committees",
+        "parliamentHighlight3Description": "Leading studies, reviewing bills, and proposing reforms where real decisions are made.",
+        "asMinisterTitle": "As Minister",
+        "ministerHighlight1Title": "Textbooks on Day One",
+        "ministerHighlight1Description": "Remote districts received books before the school year started a historic first for Nepal.",
+        "ministerHighlight2Title": "From 75 Days to 5 for NOC",
+        "ministerHighlight2Description": "The NOC process for students streamlined with data, clear goals, and rapid execution.",
+        "ministerHighlight3Title": "Execution Over Excuses",
+        "ministerHighlight3Description": "Clear priorities, tight coordination, and rapid sprints delivered measurable change in just 19 days.",
+        "ktmTitle": "Kathmandu-6",
+        "ktmHighlight1Title": "Your Voice in Parliament",
+        "ktmHighlight1Description": "15+ interventions on water, roads, and public land local problems put on the national record.",
+        "ktmHighlight2Title": "₹100+ Crore for Local Infrastructure",
+        "ktmHighlight2Description": "Roads, water systems, and public works pushed forward through budget advocacy.",
+        "ktmHighlight3Title": "Documented, not Ignored",
+        "ktmHighlight3Description": "Issues recorded, ministries questioned, and pressure maintained for solutions."
+    },
+    "about": {
+        "bioSectionTitle": "Biography",
+        "bioP1": "My childhood moved with my father's civil service postings—Tanahun, Mustang, Chitwan, eventually Kathmandu. That kind of upbringing shows you Nepal in full: the richness of its communities, but also how uneven opportunity is spread across them.",
+        "bioP2": "I studied public policy at UW-Madison, always with the intention of bringing that training home. But before returning, I spent several years with the Sarvodaya Shramadana movement, the Gandhian community development network active across South Asia. The work took me to Sri Lanka after the 2004 tsunami and to Haiti after the 2010 earthquake—both times working alongside communities rebuilding on their own terms. I wasn't there as an expert. I was learning what it actually takes to make institutions serve people instead of failing them.",
+        "bioP3": "After moving back to Nepal, I co-founded Teach For Nepal in 2012 with a small group of friends who shared a frustration of talented young Nepalis having few pathways into public service, and the schools that needed them most were invisible to the system. We started with 33 fellows in 16 schools. The organization has since placed hundreds of graduates in underserved classrooms across the country—some stayed in education, others carried the experience into government, health, business, and elsewhere.",
+        "bioP4": "I also started PickNDrop, a logistics company that now employs more than 50 people. When the 2015 earthquake struck, I helped coordinate relief in affected communities. When COVID-19 closed schools in 2020, we piloted \"टोल-टोलमा सिकाई\" in Tulsipur—neighborhood learning circles that kept children studying when classrooms were inaccessible. That model later informed national education policy.",
+        "bioP5": "In 2022, voters in Kathmandu-6 elected me to Parliament. I served briefly as Minister of Education, Science and Technology, where my team addressed the chronic textbook shortage in public schools and reduced NOC processing from 75 days to less than a week.",
+        "bioP6": "Politics isn't a career for me. The only question I'm interested in is whether it can be made to build things that last.",
+        "backgroundSectionTitle": "Backgrond",
+        "keyExperienceSectionTitle": "Key experiences"
+    },
+    "work": {
+        "parliamentSectionTitle": "In Parliament",
+        "transparencyTitle": "Transparency & Accountability",
+        "transparencyDescription": "Every issue I raise in parliament is backed by research and constituent feedback. The government must answer to the people, not through rhetoric, but through documented questions and persistent follow-up.",
+        "communityToParliamentTitle": "From Community to Parliament",
+        "communityToParliamentDescription": "367 days in the constituency over three years were spent listening. Those conversations became parliamentary interventions. Kathmandu-6's water crisis, road conditions, and public land issues are now on the national record. They have been raised 15+ times in Zero Hour, backed by written questions, and supported by formal resolutions. ₹100 crore+ has been directed to constituency infrastructure development.",
+        "researchBackedTitle": "Research-Backed Intervention",
+        "researchBackedDescription": "I serve on the Foreign Relations and International Trade Committee. I led the Nepal Airlines Corporation Study Sub-Committee. I review bills, propose amendments, and draft private member bills. Speaking in parliament is not enough. The work is in studying policy, consulting experts, and proposing solutions that can actually be implemented.",
+        "coalitionBuildingTitle": "Coalition Building",
+        "coalitionBuildingDescription": "Parliament works when members collaborate across party lines. I have jointly filed resolutions with MPs from other parties, coordinated on shared concerns, and led dialogue teams for political alliances. Results require coalition, not confrontation.",
+
+        "parliamentWorkTitle": "The Work in Parliament",
+
+        "zeroHourTitle": "Zero Hour Interventions",
+        "zeroHourSummary": "I have raised issues in Zero Hour 15+ times",
+
+        "ktm6IssuesTitle": "Kathmandu-6 Issues",
+        "ktm6Issue1": "Drinking water crisis: Dharmasthali, Phutung, Manmaiju, Nepal Taar, Samakhusi, Gongabu",
+        "ktm6Issue2": "Chakrapath expansion delays (Gongabu-Samakoshi)",
+        "ktm6Issue3": "Road conditions: Nepal Taar-Dadagaun, Sangla Bihani, Thamel-Gongabu",
+        "ktm6Issue4": "Public land encroachment (Tarkeshwar-9, National Judicial Academy area)",
+        "ktm6Issue5": "Constituency strategic road delays (Kavresthal)",
+
+        "nationalIssuesTitle": "National Issues",
+        "nationalIssue1": "Nepal's failure to complete Osaka World Expo 2025 Pavilion",
+        "nationalIssue2": "Visit visa scam at Tribhuvan International Airport",
+        "nationalIssue3": "Bagmati 20-meter no-construction zone",
+
+        "committeeWorkTitle": "Committee Work",
+        "committeeWorkDescription": "Committees are where detailed policy work happens.",
+
+        "committee1Title": "Foreign Relations and International Trade Committee",
+        "committee1Description": "Bilateral relations, trade agreements, Nepal's international positioning",
+
+        "committee2Title": "Nepal Airlines Corporation Study Sub-Committee",
+        "committee2Role": "Convenor",
+        "committee2Description": "Leading analysis of NAC challenges and reform recommendations",
+
+        "legislativeWorkTitle": "Legislative Work",
+        "legislativeWorkDescription1": "I review bills. I propose amendments based on ground realities. I draft private member bills on issues requiring legislative attention.",
+        "legislativeWorkDescription2": "Legislative work informed by ministerial experience and constituency knowledge ensures policies are implementable, not just aspirational.",
+
+        "resolutionProposalsTitle": "Resolution Proposals",
+        "resolutionProposalsDescription": "When the government ignores repeated interventions, formal resolutions create institutional pressure.",
+        "resolutionExample": "Chakrapath expansion: After repeated Zero Hour interventions were ignored, Kathmandu MPs filed a joint resolution across party lines.",
+
+        "resultsTitle": "Results",
+        "result1": "15+ Zero Hour interventions",
+        "result2": "₹100 crore+ infrastructure budget directed to Kathmandu-6",
+        "result3": "1 joint resolution (Chakrapath expansion)",
+        "result4": "Committee-led reforms (NAC study, foreign policy engagement)",
+        "result5": "Private member legislative initiatives"
+    },
+    "report": {
+        "pageTitle": "Share your concern",
+        "tagline": "Your voice matters. Use this form to report problems in Kathmandu-6.",
+        "reportDescription": "Whether it's water shortage, damaged roads, waste management issues, or any other concern affecting your daily life—let us know. Your report helps us understand priority issues and take appropriate action.",
+        "reportOptionsTitle": "What you can report?",
+        "reportOption1": "Water supply problems",
+        "reportOption2": "Road and infrastructure issues",
+        "reportOption3": "Public land concerns",
+        "reportOption4": "Education and health matters",
+        "reportOption5": "Transportation difficulties",
+        "reportOption6": "Any other community issues",
+        "postReportActionTitle": "What happens after you submit?",
+        "postReportAction1": "Your issue is recorded and reviewed by our team",
+        "postReportAction2": "Urgent matters receive priority attention",
+        "postReportAction3": "We may contact you for follow-up if needed",
+        "postReportAction4": "Your information remains confidential",
+        "fillFormPrompt": "Open and fill out the form. It takes less than 2 minutes."
+    }
+}

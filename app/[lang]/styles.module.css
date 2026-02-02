@@ -1,0 +1,186 @@
+.page {
+    .introSection {
+        --intro-section-height: 70vh;
+
+        display: flex;
+        position: relative;
+        isolation: isolate;
+        min-height: var(--intro-section-height);
+        align-items: end;
+
+        .background {
+            height: var(--intro-section-height);
+            width: 100%;
+            position: absolute;
+            background: linear-gradient(120deg, var(--color-background-tint), var(--color-background));
+
+            .coverImage {
+                object-fit: cover;
+                object-position: top center;
+                opacity: 0.5;
+            }
+        }
+
+        .intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            z-index: 1;
+
+            .greeting {
+                font-size: 1.5rem;
+                margin-bottom: .5rem;
+                text-transform: uppercase;
+            }
+
+            .brandName {
+                font-size: 7rem;
+                line-height: 1;
+                color: var(--color-primary);
+                width: fit-content;
+                text-transform: uppercase;
+                font-family: var(--font-heading);
+                font-weight: 400;
+            }
+
+            .designation {
+                font-size: 1rem;
+            }
+        }
+
+        .reportLink {
+            z-index: 1;
+        }
+    }
+
+    .additionalImages {
+        .briefIntro {
+            max-width: 36rem;
+            margin: auto;
+            text-align: center;
+        }
+        box-shadow: inset 0 0 1rem rgba(0, 0, 0, .1);
+
+        .imageList {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: inline mandatory;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            gap: 1rem;
+            scrollbar-width: none;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            .imageWrapper {
+                position: relative;
+                aspect-ratio: 1;
+                scroll-snap-align: center;
+                scroll-snap-stop: always;
+                min-width: min(20rem, 100%);
+
+
+                .image {
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            justify-content: space-between;
+
+            .scrollIndicators {
+                display: flex;
+                gap: 0.5rem;
+                justify-content: center;
+                flex-grow: 1;
+
+                .scrollIndicator {
+                    aspect-ratio: 1;
+                    height: .5rem;
+                    border: 1pt solid #000;
+                    background-color: rgba(0, 0, 0, .1);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    .highlightsSection {
+        --highlight-color-1: #009635;
+        --highlight-color-2: #006060;
+        --highlight-color-3: #007fcf;
+
+
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+
+            @media screen and (max-width: 56rem) {
+                grid-template-columns: 1fr;
+            }
+
+            .highlight {
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                padding: 3rem 1.5rem;
+                padding-block-start: 1.5rem;
+                color: #515151;
+                --highlight-color: #000;
+                background-color: var(--color-theme-background);
+
+                .heading {
+                    font-size: 1rem;
+                    line-height: 1;
+                    opacity: 0.5;
+                }
+
+                &:nth-child(1) {
+                    --highlight-color: var(--highlight-color-1);
+                }
+
+                &:nth-child(2) {
+                    --highlight-color: var(--highlight-color-2);
+                }
+
+                &:nth-child(3) {
+                    --highlight-color: var(--highlight-color-3);
+                }
+
+                .list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 3rem;
+                    list-style: none;
+
+                    .highlightItem {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.35rem;
+
+                        .title {
+                            font-weight: 300;
+                            line-height: 1;
+                            font-size: 1.5rem;
+                            color: var(--color-primary);
+                        }
+
+                        .description {
+                            font-size: 0.81rem;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

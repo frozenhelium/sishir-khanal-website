@@ -1,0 +1,113 @@
+{
+    "home": {
+        "greeting": "नमस्ते, म",
+        "fullName": "शिशिर खनाल",
+        "designation": "काठमाडौं-६ का पूर्व सांसद र पूर्व शिक्षा मन्त्री",
+        "intro": "शिशिर खनाल टिच फर नेपालका सह-संस्थापक हुन्—जसले देशका सबैभन्दा पछाडि परेका विद्यालयहरूमा सयौं प्रतिभाशाली शिक्षक पुर्‍याइसकेको छ। राजनीतिमा आउनुअघि उनले सर्वोदय श्रमदान आन्दोलनमार्फत श्रीलंका र हाइटीमा विपद्पछिको पुनर्निर्माणको नेतृत्व गरे—अनि त्यही अनुभव बोकेर नेपाल फर्किए, केही ठोस बनाउने संकल्पका साथ। उनले अमेरिकाको विस्कन्सिन-म्याडिसन विश्वविद्यालयबाट सार्वजनिक नीतिमा स्नातकोत्तर गरेका हुन्।",
+        "highlightsSectionTitle": "Highlights",
+        "inParliamentTitle": "Parliament Work",
+        "parliamentHighlight1Title": "Turning Voices into Action",
+        "parliamentHighlight1Description": "15+ parliamentary interventions and ₹100+ crore directed to local infrastructure your concerns raised at the national level.",
+        "parliamentHighlight2Title": "From Community to Parliament",
+        "parliamentHighlight2Description": "367 days on the ground turned local issues into national priorities.",
+        "parliamentHighlight3Title": "Serious Policy Work Happens in Committees",
+        "parliamentHighlight3Description": "Leading studies, reviewing bills, and proposing reforms where real decisions are made.",
+        "asMinisterTitle": "As Minister",
+        "ministerHighlight1Title": "Textbooks on Day One",
+        "ministerHighlight1Description": "Remote districts received books before the school year started a historic first for Nepal.",
+        "ministerHighlight2Title": "From 75 Days to 5 for NOC",
+        "ministerHighlight2Description": "The NOC process for students streamlined with data, clear goals, and rapid execution.",
+        "ministerHighlight3Title": "Execution Over Excuses",
+        "ministerHighlight3Description": "Clear priorities, tight coordination, and rapid sprints delivered measurable change in just 19 days.",
+        "ktmTitle": "Kathmandu-6",
+        "ktmHighlight1Title": "Your Voice in Parliament",
+        "ktmHighlight1Description": "15+ interventions on water, roads, and public land local problems put on the national record.",
+        "ktmHighlight2Title": "₹100+ Crore for Local Infrastructure",
+        "ktmHighlight2Description": "Roads, water systems, and public works pushed forward through budget advocacy.",
+        "ktmHighlight3Title": "Documented, not Ignored",
+        "ktmHighlight3Description": "Issues recorded, ministries questioned, and pressure maintained for solutions."
+    },
+    "about": {
+        "bioSectionTitle": "जीवनी",
+        "bioP1": "मेरो बाल्यकाल बुबाको सरकारी सरुवासँगै सर्दै गयो—तनहुँ, मुस्ताङ, चितवन, अनि काठमाडौं। त्यस्तो बचपनले नेपाललाई नजिकबाट चिनाउँछ: समुदायहरूको विविधता पनि, अवसरको असमान वितरण पनि।",
+        "bioP2": "मैले अमेरिकाको विस्कन्सिन विश्वविद्यालयबाट सार्वजनिक नीतिमा स्नातकोत्तर गरें—सधैं त्यो सिकाइ नेपालमै प्रयोग गर्ने सोचका साथ। तर घर फर्कनुअघि केही वर्ष सर्वोदय श्रमदान आन्दोलनमा काम गरें—दक्षिण एसियाभर सक्रिय गान्धीवादी सामुदायिक विकासको नेटवर्क। श्रीलंकामा २००४ को सुनामीपछि, हाइटीमा २०१० को भूकम्पपछि—दुवै ठाउँमा समुदायहरूले आफ्नै बलमा पुनर्निर्माण गर्ने क्रममा सँगै काम गरें। विशेषज्ञको रूपमा होइन, बरु प्रणालीले मानिसलाई साँच्चै कसरी सेवा गर्न सक्छ भन्ने बुझ्दै गरेको सिकारुको रूपमा।",
+        "bioP3": "नेपाल फर्केपछि २०१२ मा केही साथीहरूसँग मिलेर टिच फर नेपालको सुरुवात गर्‍यौं। साझा चासो एउटै थियो: प्रतिभाशाली युवाहरूलाई सार्वजनिक सेवामा प्रवेशको बाटो थिएन, र जुन विद्यालयहरूलाई सबैभन्दा बढी खाँचो थियो, तिनलाई व्यवस्थाले देख्दै थिएन। ३३ जना फेलो र १६ वटा विद्यालयबाट सुरु भयो। अहिलेसम्म सयौं स्नातकहरूले देशभरका विद्यालयहरूमा पढाइसकेका छन्—कोही शिक्षामै रहे, कोही सरकार, स्वास्थ्य, व्यापारतिर लागे।",
+        "bioP4": "म पिक एन ड्रपको सह-संस्थापक पनि हुँ—अहिले ५० भन्दा बढीलाई रोजगारी दिइरहेको लजिस्टिक्स कम्पनी। २०१५ को भूकम्पमा प्रभावित क्षेत्रमा राहत समन्वयमा खटिएँ। २०२० मा कोरोनाले विद्यालय बन्द गर्दा तुलसीपुरमा \"टोल-टोलमा सिकाई\" कार्यक्रम सञ्चालन गर्‍यौं—कक्षाकोठा नपुग्ने बेला छिमेकमै सिक्ने व्यवस्था। त्यो मोडेलले पछि राष्ट्रिय शिक्षा नीतिलाई प्रभाव पार्‍यो।",
+        "bioP5": "२०२२ मा काठमाडौं-६ का मतदाताले मलाई संसदमा पठाउनुभयो। केही समय शिक्षा, विज्ञान तथा प्रविधि मन्त्री भएँ, जहाँ हाम्रो टोलीले सार्वजनिक विद्यालयको दीर्घकालीन पाठ्यपुस्तक अभावलाई सम्बोधन गर्‍यो र NOC प्रक्रिया ७५ दिनबाट एक हप्ताभन्दा कममा झार्‍यो।",
+        "bioP6": "राजनीति मेरो लागि क्यारियर होइन। मेरो प्रश्न एउटै छ: यसबाट टिकाउ केही बनाउन सकिन्छ कि सकिँदैन।",
+        "backgroundSectionTitle": "Backgrond",
+        "keyExperienceSectionTitle": "Key experiences"
+    },
+    "work": {
+        "parliamentSectionTitle": "In Parliament",
+        "transparencyTitle": "Transparency & Accountability",
+        "transparencyDescription": "Every issue I raise in parliament is backed by research and constituent feedback. The government must answer to the people, not through rhetoric, but through documented questions and persistent follow-up.",
+        "communityToParliamentTitle": "From Community to Parliament",
+        "communityToParliamentDescription": "367 days in the constituency over three years were spent listening. Those conversations became parliamentary interventions. Kathmandu-6's water crisis, road conditions, and public land issues are now on the national record. They have been raised 15+ times in Zero Hour, backed by written questions, and supported by formal resolutions. ₹100 crore+ has been directed to constituency infrastructure development.",
+        "researchBackedTitle": "Research-Backed Intervention",
+        "researchBackedDescription": "I serve on the Foreign Relations and International Trade Committee. I led the Nepal Airlines Corporation Study Sub-Committee. I review bills, propose amendments, and draft private member bills. Speaking in parliament is not enough. The work is in studying policy, consulting experts, and proposing solutions that can actually be implemented.",
+        "coalitionBuildingTitle": "Coalition Building",
+        "coalitionBuildingDescription": "Parliament works when members collaborate across party lines. I have jointly filed resolutions with MPs from other parties, coordinated on shared concerns, and led dialogue teams for political alliances. Results require coalition, not confrontation.",
+
+        "parliamentWorkTitle": "The Work in Parliament",
+
+        "zeroHourTitle": "Zero Hour Interventions",
+        "zeroHourSummary": "I have raised issues in Zero Hour 15+ times",
+
+        "ktm6IssuesTitle": "Kathmandu-6",
+        "ktm6Issue1": "Drinking water crisis: Dharmasthali, Phutung, Manmaiju, Nepal Taar, Samakhusi, Gongabu",
+        "ktm6Issue2": "Chakrapath expansion delays (Gongabu-Samakoshi)",
+        "ktm6Issue3": "Road conditions: Nepal Taar-Dadagaun, Sangla Bihani, Thamel-Gongabu",
+        "ktm6Issue4": "Public land encroachment (Tarkeshwar-9, National Judicial Academy area)",
+        "ktm6Issue5": "Constituency strategic road delays (Kavresthal)",
+
+        "nationalIssuesTitle": "National Issues",
+        "nationalIssue1": "Nepal's failure to complete Osaka World Expo 2025 Pavilion",
+        "nationalIssue2": "Visit visa scam at Tribhuvan International Airport",
+        "nationalIssue3": "Bagmati 20-meter no-construction zone",
+
+        "committeeWorkTitle": "Committee Work",
+        "committeeWorkDescription": "Committees are where detailed policy work happens.",
+
+        "committee1Title": "Foreign Relations and International Trade Committee",
+        "committee1Description": "Bilateral relations, trade agreements, Nepal's international positioning",
+
+        "committee2Title": "Nepal Airlines Corporation Study Sub-Committee",
+        "committee2Role": "Convenor",
+        "committee2Description": "Leading analysis of NAC challenges and reform recommendations",
+
+        "legislativeWorkTitle": "Legislative Work",
+        "legislativeWorkDescription1": "I review bills. I propose amendments based on ground realities. I draft private member bills on issues requiring legislative attention.",
+        "legislativeWorkDescription2": "Legislative work informed by ministerial experience and constituency knowledge ensures policies are implementable, not just aspirational.",
+
+        "resolutionProposalsTitle": "Resolution Proposals",
+        "resolutionProposalsDescription": "When the government ignores repeated interventions, formal resolutions create institutional pressure.",
+        "resolutionExample": "Chakrapath expansion: After repeated Zero Hour interventions were ignored, Kathmandu MPs filed a joint resolution across party lines.",
+
+        "resultsTitle": "Results",
+        "result1": "15+ Zero Hour interventions",
+        "result2": "₹100 crore+ infrastructure budget directed to Kathmandu-6",
+        "result3": "1 joint resolution (Chakrapath expansion)",
+        "result4": "Committee-led reforms (NAC study, foreign policy engagement)",
+        "result5": "Private member legislative initiatives"
+    },
+    "report": {
+        "pageTitle": "Report an issue",
+        "tagline": "Your voice matters. Use this form to report problems in Kathmandu-6.",
+        "reportDescription": "Whether it's water shortage, damaged roads, waste management issues, or any other concern affecting your daily life—let us know. Your report helps us understand priority issues and take appropriate action.",
+        "reportOptionsTitle": "What you can report?",
+        "reportOption1": "Water supply problems",
+        "reportOption2": "Road and infrastructure issues",
+        "reportOption3": "Public land concerns",
+        "reportOption4": "Education and health matters",
+        "reportOption5": "Transportation difficulties",
+        "reportOption6": "Any other community issues",
+        "postReportActionTitle": "What happens after you submit?",
+        "postReportAction1": "Your issue is recorded and reviewed by our team",
+        "postReportAction2": "Urgent matters receive priority attention",
+        "postReportAction3": "We may contact you for follow-up if needed",
+        "postReportAction4": "Your information remains confidential",
+        "fillFormPrompt": "Fill out the form below. It takes less than 2 minutes."
+    }
+
+}

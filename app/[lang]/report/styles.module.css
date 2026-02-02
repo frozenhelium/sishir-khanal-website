@@ -1,0 +1,76 @@
+.report {
+    --cover-height: 30vh;
+
+    .cover {
+        min-height: var(--cover-height);
+        position: relative;
+        isolation: isolate;
+
+        .pageTitleSection {
+            min-height: var(--cover-height);
+            align-items: end;
+        }
+    }
+
+    .reportGridOptions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        gap: 0.5rem;
+    }
+
+    .postReportAction {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+
+        @media screen and (max-width: 56rem) {
+            grid-template-columns: 1fr;
+        }
+
+        .illustration {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10rem;
+            fill: var(--color-primary);
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 2pt;
+        }
+    }
+}
+
+.reportOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: var(--color-theme-background);
+
+    .icon {
+        font-size: 3rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+.reportAction {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--color-background-dark);
+
+    .icon {
+        display: flex;
+        font-size: 2rem;
+        fill: var(--color-primary);
+    }
+}
