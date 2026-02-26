@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import Section from "@/components/Section";
@@ -6,6 +7,11 @@ import parliament2 from '@/public/images/sishir-parliament-2.jpg';
 
 import styles from "./styles.module.css";
 import Navbar from "@/components/Navbar";
+
+export const metadata: Metadata = {
+    title: 'About | Shisir Khanal',
+    description: 'Brief introduction & biography of Shisir Khanal'
+}
 
 async function About({ params }: PageProps<'/[lang]'>) {
     const { lang } = await params

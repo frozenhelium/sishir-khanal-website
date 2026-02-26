@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { _cs } from "@togglecorp/fujs";
 import { defaultFont, headingFont } from "@/utils/constants";
 import { defaultLocale, localeByLang, supportedLanguages } from "@/utils/i18n";
@@ -33,6 +34,7 @@ export default async function LangRootLayout(props: LayoutProps<'/[lang]'>) {
             <body>
                 {children}
             </body>
+            <GoogleAnalytics gaId="G-J2TKVGLC2E" />
         </html>
     );
 }

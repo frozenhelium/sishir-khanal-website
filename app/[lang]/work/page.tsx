@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Image, { StaticImageData } from "next/image";
+import { Metadata } from "next";
 
 import { getStrings, hasLocale } from "@/utils/i18n";
 import Section from "@/components/Section";
@@ -12,6 +13,11 @@ import singleShot1 from '@/public/images/sishir-single-shot-1.jpg';
 
 import styles from "./styles.module.css";
 import { AirplaneTakeoffIcon, CalendarCheckIcon, CheckIcon, HandshakeIcon, MoneyIcon, PlayIcon, SecurityCameraIcon } from "@phosphor-icons/react/dist/ssr";
+
+export const metadata: Metadata = {
+    title: 'Works & Impact | Shisir Khanal',
+    description: 'Works done by Shisir Khanal as a member of Parliamet, as Minister of education and as MP of Kathmandu-6'
+}
 
 interface MethodologyProps {
     imageSrc: StaticImageData;
@@ -81,29 +87,29 @@ async function Work({ params}: PageProps<'/[lang]'>) {
                     </div>
                 </Section>
             </div>
-            <Section heading="My Approach in Parliament">
+                        <Section heading={strings.work.howIWorkTitle}>
                 <div className={styles.methodologies}>
                     <Methodology
                         imageSrc={siteVisit1}
-                        imageAlt="Shisir in action"
+                        imageAlt={strings.home.fullName}
                         title={strings.work.transparencyTitle}
                         description={strings.work.transparencyDescription}
                     />
                     <Methodology
                         imageSrc={siteVisit2}
-                        imageAlt="Shisir in action"
+                        imageAlt={strings.home.fullName}
                         title={strings.work.communityToParliamentTitle}
                         description={strings.work.communityToParliamentDescription}
                     />
                     <Methodology
                         imageSrc={siteVisit3}
-                        imageAlt="Shisir in action"
+                        imageAlt={strings.home.fullName}
                         title={strings.work.researchBackedTitle}
                         description={strings.work.researchBackedDescription}
                     />
                     <Methodology
                         imageSrc={parliament1}
-                        imageAlt="Shisir in action"
+                        imageAlt={strings.home.fullName}
                         title={strings.work.coalitionBuildingTitle}
                         description={strings.work.coalitionBuildingDescription}
                     />
@@ -112,10 +118,10 @@ async function Work({ params}: PageProps<'/[lang]'>) {
             <Section className={styles.factSection}>
                 <div className={styles.content}>
                     <div className={styles.question}>
-                        What a Member of Parliament Does?
+                        {strings.work.whatMpDoesTitle}
                     </div>
                     <div>
-                        A Member of Parliament represents constituents, holds the government accountable, and shapes legislation. This requires research, evidence, and the ability to work across party lines.
+                        {strings.work.whatMpDoesDescription}
                     </div>
                 </div>
             </Section>
@@ -233,7 +239,7 @@ async function Work({ params}: PageProps<'/[lang]'>) {
             </Section>
             <Section className={styles.factSection}>
                 <div className={styles.content}>
-                    Parliament is a tool for change. Every question raised, every committee meeting, every coalition built serves one purpose: translate Kathmandu-6's voices into national action.
+                    {strings.work.parliamentToolForChange}
                 </div>
             </Section>
             <Section
@@ -259,113 +265,111 @@ async function Work({ params}: PageProps<'/[lang]'>) {
                 </div>
             </Section>
             <Section
-                heading="As Minister of Education"
+                heading={strings.work.asMinisterSectionTitle}
                 withDarkBackground
             >
                 <div className={styles.descriptionSection}>
                     <h3 className={styles.heading}>
-                        19 Days. Two Fundamental Changes.
+                        {strings.work.ministerHeroTitle}
                     </h3>
                     <div className={styles.content}>
-                        I served as Minister of Education, Science and Technology for 19 days. Short, yes. But enough to demonstrate what capable leadership with clear priorities can achieve.
-                        This was not symbolic or ritualistic work. These were structural changes requiring coordination with bureaucracy, navigating supply chain bottlenecks, and solving problems that had persisted for years.
+                        {strings.work.ministerHeroDescription}
                     </div>
                 </div>
                 <div className={styles.descriptionSection}>
                     <h3 className={styles.heading}>
-                        What Was Done
+                        {strings.work.ministerWhatWasDoneTitle}
                     </h3>
                     <div className={styles.content}>
                         <div className={styles.actionList}>
                             <div className={styles.action}>
                                 <h4 className={styles.actionHeading}>
-                                    1. For the First Time in Nepal’s history, Textbooks were supplied on time
+                                    {strings.work.ministerAction1Title}
                                 </h4>
                                 <div className={styles.actionContent}>
-                                    For the first time, remote districts from Humla to Taplejug received textbooks before the academic year started.
-                                    Humla, a Himalayan district that routinely received books months late—sometimes after annual exams—had textbooks delivered before Baisakh 1.
+                                    {strings.work.ministerAction1P1}
+                                    {strings.work.ministerAction1P2}
                                     <strong>
-                                        What this required:
+                                        {strings.work.ministerAction1RequirementsTitle}
                                     </strong>
                                     <div className={styles.requiredActionList}>
                                         <div className={styles.requiredAction}>
                                             <HandshakeIcon />
-                                            Coordination across Ministry, Curriculum Development Center, publishers, and transporters
+                                            {strings.work.ministerAction1Requirement1}
                                         </div>
                                         <div className={styles.requiredAction}>
                                             <AirplaneTakeoffIcon />
-                                            Addressing supply chain issues specific to remote areas (air transport unreliability, road accessibility)
+                                            {strings.work.ministerAction1Requirement2}
                                         </div>
                                         <div className={styles.requiredAction}>
                                             <MoneyIcon />
-                                            Budget release synchronization with local governments
+                                            {strings.work.ministerAction1Requirement3}
                                         </div>
                                         <div className={styles.requiredAction}>
                                             <SecurityCameraIcon />
-                                            Real-time tracking of distribution
+                                            {strings.work.ministerAction1Requirement4}
                                         </div>
                                     </div>
                                     <div>
-                                        This wasn't about issuing directives. It was about understanding where the system was breaking and fixing those specific points.
+                                        {strings.work.ministerAction1P3}
                                     </div>
                                     <div>
-                                        As a result of this, students in Humla's and other remote districts’ community schools had books on day one. A historic first. 
+                                        {strings.work.ministerAction1P4}
                                     </div>
                                 </div>
                             </div>
                             <div className={styles.action}>
                                 <h4 className={styles.actionHeading}>
-                                    2. NOC Process: 75 Days to 5 Days
+                                    {strings.work.ministerAction2Title}
                                 </h4>
                                 <div className={styles.actionContent}>
-                                    Students seeking No Objection Certificates to study abroad were stuck in a 75-day bureaucratic maze. Multiple office visits. Unclear timelines. Uncertainty.
-                                    We reduced this to under 5 days.
+                                    {strings.work.ministerAction2P1}
+                                    {strings.work.ministerAction2P2}
                                     <strong>
-                                        How this was done:
+                                        {strings.work.ministerAction2HowTitle}
                                     </strong>
                                     <div>
-                                        We didn't start with software. We started with understanding the problem.
+                                        {strings.work.ministerAction2P3}
                                     </div>
                                     <div className={styles.requiredActionList}>
                                         <div className={styles.requiredAction}>
                                             <div className={styles.time}>
                                                 <CalendarCheckIcon />
-                                                <div>Week 1</div>
+                                                <div>{strings.work.ministerWeek1}</div>
                                             </div>
                                             <div>
-                                                We Interviewed students. Mapped their actual journey—from decision to study abroad to departure. Identified pain points in this journey.
+                                                {strings.work.ministerWeek1Description}
                                             </div>
                                         </div>
                                         <div className={styles.requiredAction}>
                                             <div className={styles.time}>
                                                 <CalendarCheckIcon />
-                                                <div>Week 2</div>
+                                                <div>{strings.work.ministerWeek2}</div>
                                             </div>
                                             <div>
-                                                Met with ministry officials. Presented data, not anecdotes. Showed them what students were experiencing on the ground. Aligned everyone around a citizen-centric approach.
+                                                {strings.work.ministerWeek2Description}
                                             </div>
                                         </div>
                                         <div className={styles.requiredAction}>
                                             <div className={styles.time}>
                                                 <CalendarCheckIcon />
-                                                <div>Week 3</div>
+                                                <div>{strings.work.ministerWeek3}</div>
                                             </div>
                                             <div>
-                                                <strong>Established clear goals:</strong><br />
-                                                Reduce in-person office visits from 100% to 40% <br />
-                                                Reduce processing time to under 5 days for 80% of applicants
+                                                <strong>{strings.work.ministerWeek3GoalsTitle}</strong><br />
+                                                {strings.work.ministerWeek3Goal1} <br />
+                                                {strings.work.ministerWeek3Goal2}
                                             </div>
                                         </div>
                                     </div>
                                     <div>
-                                        Replaced one-year planning cycles with two-week sprints. Established a team. Assigned clear tasks. Build accountability through simple tracking tools.
+                                        {strings.work.ministerAction2P4}
                                     </div>
                                     <div>
-                                        The insight: Most public service failures aren't about bad software or inadequate budget. They're about broken processes and misaligned priorities. Fix those first.
+                                        {strings.work.ministerAction2P5}
                                     </div>
                                     <div>
-                                        The result: First sprint completed. Goals on track. Students no longer traveling to Kathmandu for multiple office visits.
-                                        (Implementation credit: Digital transformation work led with Kailash Badu)
+                                        {strings.work.ministerAction2P6}
                                     </div>
                                 </div>
                             </div>
@@ -374,122 +378,124 @@ async function Work({ params}: PageProps<'/[lang]'>) {
                 </div>
                 <div className={styles.descriptionSection}>
                     <h3 className={styles.heading}>
-                        Why This Matters
+                        {strings.work.whyThisMattersTitle}
                     </h3>
                     <div className={styles.content}>
                         <div>
-                            These are examples of what's possible when you:
+                            {strings.work.whyThisMattersIntro}
                         </div>
                         <ul>
                             <li>
-                                Start with the citizen's experience, not the bureaucracy's convenience
+                                {strings.work.whyThisMattersPoint1}
                             </li>
                             <li>
-                                Use data to understand problems, not assumptions
+                                {strings.work.whyThisMattersPoint2}
                             </li>
                             <li>
-                                Coordinate across systems, not just issue orders
+                                {strings.work.whyThisMattersPoint3}
                             </li>
                             <li>
-                                Prioritize high-impact, achievable changes
+                                {strings.work.whyThisMattersPoint4}
                             </li>
                         </ul>
                         <div>
-                            Nepal's education system has hundreds of such problems. Low-hanging fruit that requires capable execution, not grand visions.
+                            {strings.work.whyThisMattersP1}
                         </div>
                         <div>
                             <div>
                                 <strong>
-                                    Textbooks delivered late.
+                                    {strings.work.whyThisMattersTextbookLate}
                                 </strong>
-                                Fixed in 19 days.
+                                {': '}
+                                {strings.work.whyThisMattersTextbookLateFix}
                             </div>
                             <div>
                                 <strong>
-                                    NOC process taking 75 days.
+                                    {strings.work.whyThisMattersNocSlow}
                                 </strong>
-                                Reduced to 5 days.
+                                {': '}
+                                {strings.work.whyThisMattersNocFix}
                             </div>
                         </div>
                         <div>
-                            There are dozens more like these. They don't require massive budgets. They require leadership that understands how systems work and how to make them work for people.
+                            {strings.work.whyThisMattersP2}
                         </div>
                     </div>
                 </div>
                 <div className={styles.descriptionSection}>
                     <h3 className={styles.heading}>
-                        What I Learned
+                        {strings.work.whatILearnedTitle}
                     </h3>
                     <div className={styles.content}>
                         <div>
-                            Ministries are not stages for speeches. They are tools for change.
+                            {strings.work.whatILearnedP1}
                         </div>
                         <div>
-                            19 days proved that with clear priorities, coordination skills, and bias for action, real problems can be solved quickly.
+                            {strings.work.whatILearnedP2}
                         </div>
                         <div>
-                            The question is: do we want leaders who know how to do this work, or leaders who only know how to talk about it?
+                            {strings.work.whatILearnedP3}
                         </div>
                     </div>
                 </div>
             </Section>
-            <Section heading="Work for Kathmandu-6">
+            <Section heading={strings.work.workForKtm6SectionTitle}>
                 <div className={styles.ktmWork}>
                     <div className={styles.header}>
-                        2079-2082:<br />
+                        {strings.work.ktmWorkHeaderYear}<br />
                         <strong>
-                            What Was Done
+                            {strings.work.ktmWorkHeaderTitle}
                         </strong>
                     </div>
                     <div className={styles.works}>
                         <div className={styles.descriptionSection}>
                             <h3 className={styles.heading}>
-                                Voices Raised in Parliament
+                                {strings.work.voicesRaisedTitle}
                             </h3>
                             <div className={styles.content}>
                                 <div>
-                                    15+ times your issues were raised in Zero Hour and written questions.
+                                    {strings.work.voicesRaisedP1}
                                 </div>
                                 <div>
-                                    Water: Dharmasthali, Phutung, Manmaiju, Nepal Taar, Samakhusi, Gongabu—demanded solutions for areas Melamchi doesn't reach
+                                    {strings.work.voicesRaisedP2}
                                 </div>
                                 <div>
-                                    Roads: Chakrapath expansion, Nepal Taar-Dadagaun, Sangla Bihani, Thamel-Gongabu—raised repeatedly, filed joint resolution
+                                    {strings.work.voicesRaisedP3}
                                 </div>
                                 <div>
-                                    Public Land: Tarkeshwar 9 encroachment, Judicial Academy area issues
+                                    {strings.work.voicesRaisedP4}
                                 </div>
                                 <div>
-                                    Other: Gongabu bus park vandalism, Bagmati construction zone concerns
+                                    {strings.work.voicesRaisedP5}
                                 </div>
                                 <div>
-                                    Problems documented. Government questioned. Solutions demanded.
+                                    {strings.work.voicesRaisedP6}
                                 </div>
                             </div>
                         </div>
                         <div className={styles.descriptionSection}>
                             <h3 className={styles.heading}>
-                                Resources Mobilized
+                                {strings.work.resourcesMobilizedTitle}
                             </h3>
                             <div className={styles.content}>
                                 <div>
-                                    ₹100 crore+ directed to Kathmandu-6 infrastructure (2079-2082)
+                                    {strings.work.resourcesMobilizedP1}
                                 </div>
                                 <div>
-                                    Roads, water projects, public infrastructure—mobilized through constituency development programs and budget advocacy.
+                                    {strings.work.resourcesMobilizedP2}
                                 </div>
                             </div>
                         </div>
                         <div className={styles.descriptionSection}>
                             <h3 className={styles.heading}>
-                                Community Work
+                                {strings.work.communityWorkTitle}
                             </h3>
                             <div className={styles.content}>
                                 <div>
-                                    367+ days in the constituency. Ward-level hearings, project monitoring, school visits, grievance redressal.
+                                    {strings.work.communityWorkP1}
                                 </div>
                                 <div>
-                                    The issues raised in parliament came from listening to you.
+                                    {strings.work.communityWorkP2}
                                 </div>
                             </div>
                         </div>
@@ -498,21 +504,21 @@ async function Work({ params}: PageProps<'/[lang]'>) {
                 <div className={styles.ktmWork}>
                     <div className={styles.header}>
                         <strong>
-                            What's Next
+                            {strings.work.whatsNextTitle}
                         </strong>
                     </div>
                     <div className={styles.plans}>
                         <div className={styles.plan}>
                             <CheckIcon />
-                            The problems are known. The work has started. Evidence is there.
+                            {strings.work.whatsNextPoint1}
                         </div>
                         <div className={styles.plan}>
                             <PlayIcon />
-                            Now this work needs to continue.
+                            {strings.work.whatsNextPoint2}
                         </div>
                         <div className={styles.plan}>
                             <HandshakeIcon />
-                            Your support makes that possible.
+                            {strings.work.whatsNextPoint3}
                         </div>
                     </div>
                 </div>

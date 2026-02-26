@@ -19,6 +19,12 @@ import {
     WarehouseIcon
 } from "@phosphor-icons/react/dist/ssr";
 import ButtonLikeLink from "@/components/ButtonLikeLink";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'Share concern | Shisir Khanal',
+    description: 'Share you concern and let the team know about it.'
+}
 
 interface ReportOptionProps {
     title: React.ReactNode;
